@@ -6,7 +6,7 @@
 | Member's Name    | 
 |:------------:|
 | Fernando Abel Malca Luque  |
-| Member 2     | 
+| Heber Josue Trujillo Cruz    | 
 
 
 ## Project Proposal
