@@ -1,0 +1,25 @@
+App      
+ContentView
+    csc680_final_project
+    css680_final_projectApp
+    Persistence
+README
+Products
+    csc680_final_project
+    csc680_final_projectTests
+    csc680_final_projectUITests
+Views
+ViewModels
+Models
+Services
+Extensions
+Resources
+    Preview Content
+        Preview Assest
+    Assets
+Tests
+    csc680_final_projectTests
+        csc680_final_projectTests
+    csc680_final_projectUITests
+        csc680_final_projectUITests
+        csc680_final_projectLaunchTests
