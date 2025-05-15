@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		58A34CF22DC0424D008F6479 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 58A34CF12DC0424D008F6479 /* README.md */; };
+		58DFC1A22DD4643900C735BA /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC1A12DD4643900C735BA /* Entry+CoreDataProperties.swift */; };
+		58DFC1A32DD4643900C735BA /* Entry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC1A02DD4643900C735BA /* Entry+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		58A34CC02DC03F47008F6479 /* csc680-final-projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "csc680-final-projectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A34CCA2DC03F47008F6479 /* csc680-final-projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "csc680-final-projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A34CF12DC0424D008F6479 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		58DFC1A02DD4643900C735BA /* Entry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		58DFC1A12DD4643900C735BA /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -62,6 +66,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		587D4F812DD5CED50081F73A /* Helpers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		58A34CF42DC04317008F6479 /* App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = App;
@@ -85,11 +94,6 @@
 		58A34D022DC04386008F6479 /* Services */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Services;
-			sourceTree = "<group>";
-		};
-		58A34D042DC0438A008F6479 /* Extensions */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		58A34D052DC0438D008F6479 /* Resources */ = {
@@ -137,6 +141,9 @@
 		58A34CA22DC03F45008F6479 = {
 			isa = PBXGroup;
 			children = (
+				587D4F812DD5CED50081F73A /* Helpers */,
+				58DFC1A02DD4643900C735BA /* Entry+CoreDataClass.swift */,
+				58DFC1A12DD4643900C735BA /* Entry+CoreDataProperties.swift */,
 				58A34CF42DC04317008F6479 /* App */,
 				58A34CF12DC0424D008F6479 /* README.md */,
 				58A34CAC2DC03F45008F6479 /* Products */,
@@ -144,7 +151,6 @@
 				58A34CFB2DC04359008F6479 /* ViewModels */,
 				58A34CF82DC04330008F6479 /* Models */,
 				58A34D022DC04386008F6479 /* Services */,
-				58A34D042DC0438A008F6479 /* Extensions */,
 				58A34D052DC0438D008F6479 /* Resources */,
 				58A34D072DC0443D008F6479 /* Tests */,
 			);
@@ -176,12 +182,12 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				587D4F812DD5CED50081F73A /* Helpers */,
 				58A34CF42DC04317008F6479 /* App */,
 				58A34CF82DC04330008F6479 /* Models */,
 				58A34CF92DC04341008F6479 /* Views */,
 				58A34CFB2DC04359008F6479 /* ViewModels */,
 				58A34D022DC04386008F6479 /* Services */,
-				58A34D042DC0438A008F6479 /* Extensions */,
 				58A34D052DC0438D008F6479 /* Resources */,
 				58A34D072DC0443D008F6479 /* Tests */,
 			);
@@ -306,6 +312,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DFC1A22DD4643900C735BA /* Entry+CoreDataProperties.swift in Sources */,
+				58DFC1A32DD4643900C735BA /* Entry+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,16 +471,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"csc680-final-project/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = N5D8JATLDA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,6 +490,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "csc680.csc680-final-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -491,16 +502,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"csc680-final-project/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = N5D8JATLDA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -508,6 +521,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "csc680.csc680-final-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
