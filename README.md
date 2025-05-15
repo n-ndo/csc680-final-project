@@ -36,6 +36,7 @@ A password manager that allows users to save/store their passwords in a safe, ea
 - **Password Audit:**  
   Offer strength checks for passwords and breach alerts to notify users about compromised credentials.
 
+## Unable to Add Features
 - **Autofill Integration:**  
   Streamline login processes
     - Integrate using the Autofill Credential Provider Extension
