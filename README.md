@@ -13,7 +13,7 @@ Note:
  talking about how we'll set it up and connecting everything. He was also responsible for
  some of the designs/wireframes for the app.
 
- - Fernando Malca
+ From, Fernando Malca
 
 ## Project Proposal
 
